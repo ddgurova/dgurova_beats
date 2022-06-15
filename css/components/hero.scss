@@ -1,5 +1,5 @@
 .hero {
-    background: url("/Project_2/pictures/Ellipse.png") left 90%  center no-repeat;
+    background: url("../../pictures/hero/beats.png") left 90%  center no-repeat;
     background-color: $grey;
     height: 100vh;
     min-height: 650px;
@@ -9,7 +9,7 @@
     position: relative;
 
         &:before {
-            content: url(/Project_2/pictures/grey_element.png);
+            content: url(../../pictures/hero/grey_element.png);
             position: absolute;
             bottom: -27px;
             right: 29%;

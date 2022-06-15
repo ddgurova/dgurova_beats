@@ -55,7 +55,7 @@ img {
   max-width: 100%; }
 
 .hero {
-  background: url("/Project_2/pictures/Ellipse.png") left 90% center no-repeat;
+  background: url("../../pictures/hero/beats.png") left 90% center no-repeat;
   background-color: #F8FAF9;
   height: 100vh;
   min-height: 650px;
@@ -64,7 +64,7 @@ img {
   align-items: center;
   position: relative; }
   .hero:before {
-    content: url(/Project_2/pictures/grey_element.png);
+    content: url(../../pictures/hero/grey_element.png);
     position: absolute;
     bottom: -27px;
     right: 29%; }
@@ -213,7 +213,7 @@ img {
   margin: 0 3%;
   position: relative; }
   .benefits__item:before {
-    content: url(../../pictures/Shape\ sp-2204-0.png);
+    content: url(/pictures/why/three_dot.png);
     position: absolute;
     top: 30px;
     right: 0;
