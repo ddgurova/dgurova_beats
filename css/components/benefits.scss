@@ -1,0 +1,26 @@
+.benefits {
+    display: flex;
+    margin-top: 60px;
+}
+
+.benefits__item {
+    flex: 1;
+    margin: 0 3%;
+    position: relative;
+
+    &:before {
+        content: url(../../pictures/Shape\ sp-2204-0.png);
+        position: absolute;
+        top: 30px;
+        right: 0;
+        transform: translateX(50%);
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
