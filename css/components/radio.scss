@@ -2,6 +2,7 @@
     display: flex;
     cursor: pointer;
     user-select: none;
+    margin-right: 16px;
 
     &--checkbox {
         .radio__visible {
@@ -9,7 +10,7 @@
             color: #E01F3D;
 
             &:before {
-                background: url("../../pictures/form/v.png");
+                background: url("../../pictures/form/v.png") center center no-repeat;
                 color: #E01F3D;
             }
         }
@@ -32,6 +33,7 @@
     position: relative;
     border-radius: 50%;
     background: white;
+    margin-right: 10px;
 
     &:before {
         width: 14px;

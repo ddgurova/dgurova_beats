@@ -1,20 +1,22 @@
 .benefits {
   display: flex;
-  margin-top: 60px; }
+  margin-top: 62px; }
 
 .benefits__item {
   flex: 1;
-  margin: 0 3%;
+  padding: 0 3%;
   position: relative; }
   .benefits__item:before {
-    content: url(./pictures/why/three_dot.png);
+    content: url(../../pictures/why/three_dot.png);
     position: absolute;
     top: 30px;
     right: 0;
     transform: translateX(50%); }
   .benefits__item:first-child {
-    margin-left: 0; }
+    padding-left: 0; }
   .benefits__item:last-child {
-    margin-right: 0; }
+    padding-right: 0; }
+    .benefits__item:last-child:before {
+      display: none; }
 
 /*# sourceMappingURL=benefits.css.map */

@@ -1,12 +1,13 @@
 .radio {
   display: flex;
   cursor: pointer;
-  user-select: none; }
+  user-select: none;
+  margin-right: 16px; }
   .radio--checkbox .radio__visible {
     border-radius: 0%;
     color: #E01F3D; }
     .radio--checkbox .radio__visible:before {
-      background: url("../../pictures/form/v.png");
+      background: url("../../pictures/form/v.png") center center no-repeat;
       color: #E01F3D; }
 
 .radio__elem {
@@ -19,7 +20,8 @@
   height: 26px;
   position: relative;
   border-radius: 50%;
-  background: white; }
+  background: white;
+  margin-right: 10px; }
   .radio__visible:before {
     width: 14px;
     height: 14px;

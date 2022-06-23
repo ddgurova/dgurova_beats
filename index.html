@@ -4,10 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <meta name="viewport" content="width=1000">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/main.scss">
         <title>Beats</title>
@@ -73,7 +72,7 @@
                             <div class="headline__subtitle">Процессор W1 работает невероятно эффективно и позволяет легко подключать наушники к различным устройствам Apple.
                             </div>
                             <ul class="benefits">
-                                <li class="benefits__items benefit">
+                                <li class="benefits__item benefit ">
                                     <div class="benefit__image">
                                         <div class="benefit__image-wrapper">
                                             <img src="./pictures/why/alcaline.png" alt="" class="benefit__icon">
@@ -88,7 +87,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="benefits__items benefit">
+                                <li class="benefits__item benefit">
                                     <div class="benefit__image">
                                         <div class="benefit__image-wrapper">
                                             <img src="./pictures//why/volume.png" alt="" class="benefit__icon">
@@ -103,7 +102,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="benefits__items benefit">
+                                <li class="benefits__item benefit">
                                     <div class="benefit__image">
                                         <div class="benefit__image-wrapper">
                                             <img src="./pictures/why/timer.png" alt="" class="benefit__icon">
@@ -145,7 +144,7 @@
                             <ul class="reviews__switcher">
                                 <li class="reviews__switcher-item interactive-avatar interactive-avatar--active">
                                     <a href="#" class="interactive-avatar__link">
-                                        <img src="./pictures/reviews/billie_icon.png" alt="" class="interactive-avatar__img">
+                                        <img src="./pictures/reviews/billie.png" alt="" class="interactive-avatar__img">
                                     </a>
                                 </li>
                                 <li class="reviews__switcher-item interactive-avatar">
@@ -162,9 +161,9 @@
                         </div>
                     </div>
                 </section>
-                <section class="section__order-section">
+                <section class="section order-section">
                     <div class="container">
-                        <h2 class="section__order-title">Закажите доставку</h2>
+                        <h2 class="section__title order-title">Закажите доставку</h2>
                         <form class="form">
                             <div class="form__col">
                                 <div class="form__row">
@@ -207,7 +206,6 @@
                                     <label class="form__block">
                                         <div class="form__title">Комментарий</div>
                                         <textarea class="form__input form__input--textarea"></textarea>
-                                        <input type="text" class="form__input">
                                     </label>   
                                 </div>
                                 <div class="form__controls">
@@ -217,7 +215,7 @@
                                         <div class="radio__title">Потребуется сдача</div>
                                     </label>
                                     <label class="radio">
-                                        <input type="radio" class="radio__elem">
+                                        <input type="radio" name="option" class="radio__elem">
                                         <div class="radio__visible"></div>
                                         <div class="radio__title">Оплата по карте</div>
                                     </label>
@@ -229,11 +227,46 @@
                                         <div class="radio__title">Не перезванивать</div>
                                     </label>
                                 </div>
+                                <div class="form__btns">
+                                    <input type="submit" value="Заказать" class="btn btn--theme--red">
+                                    <input type="reset " value="Очистить" class="btn btn--theme--transparent">
+                                </div>
                             </div>
                         </form>
                     </div>
                 </section>
             </div>
         </div>
+        <nav class="fixed-menu">
+            <ul class="fixed-menu__list">
+                <li class="fixed-menu__item--active">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+                <li class="fixed-menu__item">
+                    <a href="" class="fixed-menu__link"></a>
+                </li>
+            </ul>
+        </nav>
     </body> 
 </html>

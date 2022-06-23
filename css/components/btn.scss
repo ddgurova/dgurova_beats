@@ -7,6 +7,9 @@
     line-height: 1;
     text-decoration: none;
     margin-bottom: 70px;
+    width: 163px;
+    height: 54px;
+    border: none;
 
     &--theme--red {
         background: #E01F3D;
@@ -15,5 +18,11 @@
             background: #fff;
             color: #E01F3D;;
         }
+    }
+
+    &--theme--transparent {
+        background: transparent;
+        color: #fff;
+        text-transform: none;
     }
 }

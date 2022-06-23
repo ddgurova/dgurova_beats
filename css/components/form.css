@@ -3,7 +3,7 @@
 
 .form__col {
   flex: 1;
-  margin-right: 20px; }
+  margin-right: 27px; }
   .form__col:last-child {
     margin-right: 0; }
 
@@ -31,9 +31,14 @@
 
 .form__controls {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: 22px; }
 
 .form__title {
   color: white; }
+
+.form__btns {
+  margin-top: 46px; }
 
 /*# sourceMappingURL=form.css.map */
